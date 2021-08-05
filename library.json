@@ -1,0 +1,26 @@
+{
+    "name": "esp-sensirion",
+    "version": "1.0.0",
+    "description": "A library built on esp-idf for reading Sensirion-family sensors.",
+    "keywords": "sensirion, sensor, i2c, hardware, esp-idf, esp32, esp8266",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/khoek/esp-sensirion.git"
+    },
+    "authors": [
+        {
+            "name": "Keeley Hoek",
+            "email": "keeley@hoek.io",
+            "url": "https://hoek.io"
+        }
+    ],
+    "license": "MIT",
+    "homepage": "https://github.com/khoek/esp-sensirion",
+    "frameworks": "espidf",
+    "platforms": "espressif32",
+    "dependencies": {
+        "khoek/libesp": "^2.2.0",
+        "khoek/libi2c": "^2.0.0",
+        "khoek/libcrc": "^2.0.0"
+    }
+}
